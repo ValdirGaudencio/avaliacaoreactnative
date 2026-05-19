@@ -12,7 +12,7 @@ export default function CadastroScreen({ navigation }) {
   const [email, setEmail] = useState('');
 
   function irParaEdicao() {
-    navigation.navigate('Editar', {
+    navigation.navigate('Edicao', {
       nome,
       email,
     });
